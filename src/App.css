@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.header {
+  background-color: #001f3f;
+  padding: 50px 0;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #001f3f;
+  padding: 10px 0;
+}
+
+.footerName {
+  margin: 0;
+  color: #fff;
+}
+
+.principalContainer {
+  display: block;
+  text-align: center;
+}
+
+.dataContainers {
+  display: inline-block;
+  width: 100%;
+}
+
+div.cards {
+  width: 20%;
+  background-color: #bcd2ee;
+  display: inline-block;
+  position: relative;
+  margin: 50px 50px;
+  border-radius: 30px;
+}
+
+.generalTitle {
+  font-family: "Cabin",helvetica,arial,sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+}
+
+.titleCards {
+  font-family: "Lobster",helvetica,arial,sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  div.cards {
+    width: 33%;
+  }
+}
+@media screen and (max-width: 768px) {
+  div.cards {
+    width: 33%;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.cards {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  div.cards {
+    width: 75%;
+  }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
